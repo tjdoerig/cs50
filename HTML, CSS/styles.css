@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto');
+
+header{ 
+    text-align: right;
+}
+
+
+G_first, G_fourth{
+  color: #3369e8;
+}
+
+.second, .sixth
+{
+  color:#d50f25;
+}
+.third
+{
+  color: #eeb211;
+}
+.fifth
+{
+  color: #009939;
+}
+
+input{
+    width: 600px; 
+    height: 30px;
+    border-radius:30px;
+    border: 1px solid blue;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
+input:hover
+{
+  background-color:#009939;
+  color: white;
+}
+
+button:hover
+{
+  border: 1px solid #D8D8D8;
+  font-weight: bold;
+}
+ 
