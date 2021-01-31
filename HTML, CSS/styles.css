@@ -1,36 +1,76 @@
-@import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto');
 
-header{ 
-    text-align: right;
-}
-
-
-G_first, G_fourth{
-  color: #3369e8;
+html {
+  height: 100%;
+  min-height: 100%;
 }
 
-.second, .sixth
-{
-  color:#d50f25;
-}
-.third
-{
-  color: #eeb211;
-}
-.fifth
-{
-  color: #009939;
+#header { 
+  display: grid;
+  grid-template-columns: 1f 50px,50px;
+  grid-template-rows: 50px;
+  grid-template-areas: ". imageSearch advancedSearch";
 }
 
-input{
-    width: 600px; 
-    height: 30px;
-    border-radius:30px;
-    border: 1px solid blue;
-    font-size: 25px;
-    margin: auto;
-    cursor: pointer;
+/*entfernt den Untersicht von den Links
+Textfarbe*/
+a { 
+  text-decoration: none;
+  color: rgb(32,32,32);
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+#imageSearch {
+  grid-area: imageSearch;
+  justify-self: center;
+  align-self: center;
+}
+
+#advancedSearch {
+  grid-area: advancedSearch;
+  justify-self: center;
+  align-self: center;
+}
+
+#body { 
+  display: grid;
+  grid-template-columns: 1f 1f 1f;
+  grid-template-rows: 200px 80px 80px;
+  grid-template-areas: 
+  ". logo . "
+  ". input . "
+  ". flexbox ." ;
+}
+
+#logo {
+  grid-area: logo;
+  justify-self: center;
+  align-self: center;
+}
+
+#input{
+  width: 600px; 
+  height: 30px;
+  border-radius:30px;
+  border: 1px solid blue;
+  font-size: 25px;
+  margin: auto;
+  cursor: pointer;
+}
+
+#btnGoogleSearch {
+  grid-area: btnGoogleSearch;
+  justify-self: center;
+  align-self: center;
+}
+
+#btnFeelingLucky {
+  grid-area: btnFeelingLucky;
+  justify-self: center;
+  align-self: center;
+}
+
+
 
 input:hover
 {
