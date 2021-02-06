@@ -8,23 +8,24 @@
     </head>
 
     <body>
-
-        <div id="header">
-            <a href="imageSearch.html" id="imageSearch"> Image Search</a>
-            <a href="advancedSearch.html" id="advancedSearch"> Advanced Search</a>
-        </div>
-
-        <div id="body">
-            <a href=# id="logo"><img src="src/googlelogo.png"></a>
-            <form id="input" action="https://google.com/search">
-                <input type="text" name="q">
+        <nav>
+      	    <a href="imageSearch.html">Google Image</a>
+      	    <a href="advancedSearch.html">Google Advanced</a>
+        </nav>
+        
+        <section class="section1">
+      	    <img src="src/logo.png" class="logo">
+            <form action="https://google.com/search"><br><br>
+                <div class="searchbox">
+                    <img src="src/lens.svg" class="search-icon">
+                    <input type="text" name="q" class="s-input">
+                    <input type="submit" class="s-btn" value="Google Search">
+                    
+                    <form action="http://www.google.com/search?q=term&s-btn">
+                        <input type="submit" class="s-btn" value="I'm Feeling Lucky">
+                    </form>
+                </div>
             </form>
-            <button id="btnGoogleSearch"> Google Search </button>
-            <button id="btnFeelingLucky"> I'm Feeling Lucky </button>
-        </div>
-
-        <div id="footer">
-        </div>
-
+      </section>
     </body>
 </html>
