@@ -58,6 +58,15 @@ nav button {
 	margin: 0px auto;
 	margin-top: 107px;
 }
+
+.imageLogo{
+	display: block;
+	margin: 0px auto;
+	margin-top: 107px;
+	width: 272px;
+	height: 92px;
+}
+
 .searchbox {
 	width: 580px;
 	margin: 0px auto;
